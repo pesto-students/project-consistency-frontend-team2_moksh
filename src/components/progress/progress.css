@@ -1,0 +1,58 @@
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+#progress-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#progress-circle {
+  background-color: #bee9e8;
+  border: 3px solid;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 4px 2px 5px #0784f7;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  /* .progress-container {
+    flex-direction: column;
+  } */
+
+  #progress-circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 768px){
+  #progress-circle {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #progress-circle {
+    width: 255px;
+    height: 255px;
+  }
+}

@@ -1,0 +1,202 @@
+* {
+  font-family: "Work Sans";
+}
+
+body {
+  margin: 0px;
+}
+
+.main {
+  background-color: #cae9ff;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.Non-google-login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 450px;
+  height: 65px;
+
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 550;
+  background: #bee9e8;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: rgb(9, 9, 9);
+  font-size: 25px;
+  font-weight: 520;
+  padding-left: 20px;
+}
+
+#button {
+  width: 450px;
+  height: 65px;
+  left: 557px;
+  top: 737px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: #1b4965;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.Logo > svg {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 54px;
+  top: 25px;
+  z-index: 1;
+}
+
+.TopOvalShape > svg {
+  position: absolute;
+  width: 604px;
+  height: 400px;
+  top: 25px;
+  right: 0;
+  transform: rotateY(180deg);
+}
+
+.BottomOvalShape > svg {
+  position: absolute;
+  width: 604px;
+  height: 400px;
+  left: 0px;
+  bottom: 30px;
+}
+
+i {
+  margin-right: 10px;
+  /* font-size: large; */
+  /* width: 25px;
+  height: 25px; */
+}
+
+.LogInfooter {
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.LogInfooter > hr {
+  border: solid 2px;
+  color: #000000;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    width: 100%;
+    background-color: #cae9ff;
+  }
+  .BottomOvalShape > svg {
+    bottom: 10px;
+    left: 0;
+    width: 300px;
+    height: 250px;
+  }
+
+  .Non-google-login {
+    margin-top: 16%;
+  }
+
+  .TopOvalShape > svg {
+    top: 10px;
+    right: 0;
+    width: 300px;
+    height: 250px;
+  }
+
+
+  input {
+    width: 85%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  #button {
+    box-sizing: none;
+    width: 258px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 18px;
+    height: 50px;
+  }
+
+  .Logo > svg {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+  }
+
+  .LogInfooter {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .TopOvalShape {
+    right: 0;
+    top: 200px;
+  }
+
+  .Logo > svg {
+    width: 250px;
+    height: 250px;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .BottomOvalShape {
+    top: 55%;
+  }
+
+  
+}

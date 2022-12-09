@@ -1,0 +1,357 @@
+.habits-tracker-container {
+  background: #5fa8d3;
+}
+
+.habit-tracker-txt {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+.react-calendar {
+  background-color: #bee9e8;
+  border: 3px solid;
+  border-radius: 10px;
+  color: #070707;
+  margin-top: 25px;
+  width: 380px;
+  font-size: 24px;
+}
+
+.react-calendar__navigation button,
+.react-calendar button {
+  color: rgb(15, 15, 15);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.react-calendar__tile--now {
+  background-color: #0487f1;
+}
+
+.react-calendar__tile--active {
+  background-color: #76baff;
+}
+
+table {
+  background: transparent;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.todo-container {
+  height: 100vh;
+}
+
+.todo-container-in-tracker {
+  display: flex;
+  justify-content: space-around;
+}
+
+td,
+th {
+  padding: 0px 15px;
+  font-size: 24px;
+}
+td {
+  text-align: center;
+}
+
+i {
+  font-size: small;
+}
+
+.habitInput > ::placeholder {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.habits-tracker {
+  width: 950px;
+  box-shadow: 4px 4px 2px 2px #0784f6;
+  max-height: 250px;
+  height: auto;
+  background: #bee9e8;
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 106, 106);
+}
+
+.habitInput > input {
+  margin-top: 15px;
+  background: #bee9e8;
+  line-height: 30px;
+  border: 3px solid;
+  border-radius: 6px;
+  box-shadow: 4px 4px 2px 2px #0784f6;
+  font-size: 24px;
+  font-weight: 600;
+  width: 275px;
+  height: 50px;
+  padding: 10px 0px 10px 10px;
+  margin-right: 15px;
+}
+
+.habitInput > input:focus {
+  outline: none;
+}
+
+#checkbox > input {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid;
+  margin-top: 10px;
+  appearance: none;
+}
+
+#checkbox > input:checked {
+  background-image: url("tickmark.png");
+  background-size: cover;
+}
+
+#habit {
+  line-height: 30px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid;
+  border-radius: 6px;
+  /* box-shadow: 4px 4px 2px 2px #0784f6; */
+  font-size: 25px;
+  font-weight: 600;
+  width: 274px;
+  height: 42px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#habit > p {
+  width: 200px;
+  overflow: hidden;
+}
+
+.mainpage-page3 {
+  background: #cae9ff;
+  height: 110vh;
+}
+
+.progress-container-mainpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-container-mainpage > h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.progress-calender-container {
+  display: flex;
+  justify-content: center;
+  /* gap: 15em; */
+}
+
+@keyframes jump {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-3px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-3px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+i:hover {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: jump;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+
+@media screen and (max-width: 767px) {
+  #habit > p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 160px;
+  }
+  .habit-tracker-txt {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+  }
+
+  .habits-tracker {
+    width: 310px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    
+  }
+
+  .progress-calender-container {
+    display: block;
+    gap: 0;
+  }
+
+  .react-calendar {
+    width: 300px;
+    height: 270px;
+    font-size: 15px;
+    margin: 15px auto;
+  }
+
+  .todo-container-in-tracker {
+    flex-direction: column;
+  }
+
+  .progress-container-mainpage h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .mainpage-page3 {
+    height: 120vh;
+  }
+
+  .habitInput > input {
+    width: 170px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .habitInput ::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .react-calendar__navigation button,.react-calendar button {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #habit {
+    width: 181px;
+    border: 2px solid;
+  }
+
+  #checkbox > input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  #habit > p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 160px;
+  }
+  .habit-tracker-txt {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+  }
+
+  .habits-tracker {
+    width: 710px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    
+  }
+
+  .progress-calender-container {
+    display: block;
+    gap: 0;
+  }
+
+  .react-calendar {
+    width: 300px;
+    height: 270px;
+    font-size: 15px;
+    margin: 15px auto;
+  }
+
+  .todo-container-in-tracker {
+    flex-direction: column;
+  }
+
+  .progress-container-mainpage h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .mainpage-page3 {
+    height: 120vh;
+  }
+
+  .habitInput > input {
+    width: 170px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .habitInput ::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .react-calendar__navigation button,.react-calendar button {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  .habits-tracker {
+    width: 1100px;
+    max-height: 550px;
+  }
+
+  .todo-container-in-tracker {
+    height: 100vh;
+  }
+}
