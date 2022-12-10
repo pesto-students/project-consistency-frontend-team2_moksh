@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Project Consistency 
+![Project Consistency-logos_white 1](https://user-images.githubusercontent.com/25152105/206829845-1e83943c-f932-4559-a944-85524b2dac87.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+**Project Consistency is all about improving the productivity of users with the help of techniques like the Pomodoro Technique, Todo List, and Habits Tracker. With an in-built Pomodoro clock, the user can keep track of the time being consumed and can also improve the focus on task being performed. Users can add, edit, delete and mark completed tasks in their to-do list on daily basis.  With an in-built habit tracker, users can keep track of their progress in their consistency of added habits. Users can also access their history of task completion and habits because that data is stored in a database.**
 
-### `npm start`
+# Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- https://project-consistency.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Test credentials 
+- username: test@gmail.com
+- Password: test@123
 
-### `npm test`
+# Installation
+- Fork or directly clone this repository to your local machine
+- Use the npm install command to install dependencies
+- Once the dependencies are finished installing, use the npm start command inside the root directory to open the app in your local browser of choice
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technology Stack
+- React
+- React-Router
+- JSX
+- Styled Components
 
-### `npm run build`
+# Authors
+- [Dhruv Jadvani](https://github.com/dhruvjadvani/)
+- [Aditya Vetale](https://github.com/aditya-vetale/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# License
+MIT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
